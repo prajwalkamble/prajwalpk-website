@@ -51,7 +51,7 @@ const skills: ISkillListItem[] = [
       },
       {
         title: "Redux Toolkit",
-        level: SkillLevel.Expert,
+        level: SkillLevel.Beginner,
         icon: "/skills/redux.svg",
       },
     ],
@@ -61,24 +61,19 @@ const skills: ISkillListItem[] = [
     items: [
       {
         title: "Spring Boot",
-        level: SkillLevel.Intermediate,
+        level: SkillLevel.Expert,
         icon: "/skills/spring-boot.svg",
       },
       {
         title: "Node.js",
-        level: SkillLevel.Expert,
+        level: SkillLevel.Intermediate,
         icon: "/skills/nodejs.svg",
       },
       {
         title: "Express.js",
-        level: SkillLevel.Expert,
+        level: SkillLevel.Beginner,
         icon: "/skills/express.svg",
       },
-      // {
-      //   title: "Nest.js",
-      //   level: SkillLevel.Beginner,
-      //   icon: "/skills/nestjs.svg",
-      // },
     ],
   },
   {
@@ -86,7 +81,7 @@ const skills: ISkillListItem[] = [
     items: [
       {
         title: "MySQL",
-        level: SkillLevel.Beginner,
+        level: SkillLevel.Expert,
         icon: "/skills/mysql.svg",
       },
       {
@@ -96,7 +91,7 @@ const skills: ISkillListItem[] = [
       },
       {
         title: "PostgreSQL",
-        level: SkillLevel.Intermediate,
+        level: SkillLevel.Beginner,
         icon: "/skills/postgresql.svg",
       },
     ],
