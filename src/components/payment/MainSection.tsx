@@ -14,7 +14,7 @@ const PaymentMainSection = () => {
           trust and partnership!
         </p>
         <p className="text-center text-base mt-4 mb-8 max-w-screen-md">
-          Securely pay for your website, mobile app, or backend API development
+          Securely pay for your website, or backend API development
           project. I specialize in creating high-quality, customized solutions
           tailored to your needs.
         </p>
