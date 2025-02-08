@@ -102,19 +102,19 @@ To create a new account on Whealth, follow the steps below:
     - **Sign in with Email**: Enter you email address in the "Email address" field and click the **Continue** button.
 
 
-[comment]: # ## Support
-[comment]: # For assistance, visit the [Support Center](https://whealth-finance.vercel.app/support) or contact our support team at support@whealth-finance.vercel.app
+[comment]: # (## Support)
+[comment]: # (For assistance, visit the [Support Center](https://whealth-finance.vercel.app/support) or contact our support team at support@whealth-finance.vercel.app)
 
-[comment]: # ## Frequently Asked Questions (FAQs)
-[comment]: # **Q1: Is Whealth Finance free to use?**
+[comment]: # (## Frequently Asked Questions (FAQs))
+[comment]: # (**Q1: Is Whealth Finance free to use?**)
 
-[comment]: # A1: Yes, Whealth Finance offers a free basic plan. Premium features are available through subscription.
+[comment]: # (A1: Yes, Whealth Finance offers a free basic plan. Premium features are available through subscription.)
 
-[comment]: # **Q2: Can I link bank account to Whealth Finance?**
+[comment]: # (**Q2: Can I link bank account to Whealth Finance?**)
 
-[comment]: # A2: Currently, bank account linking is not supported. You can manually import bank statements.
+[comment]: # (A2: Currently, bank account linking is not supported. You can manually import bank statements.)
 
-[comment]: # **Q3: How do I reset my password?**
+[comment]: # (**Q3: How do I reset my password?**)
 
-[comment]: # A3: Click on **Forgot Password** on the login page and follow the instructions to reset your password.
+[comment]: # (A3: Click on **Forgot Password** on the login page and follow the instructions to reset your password.)
 
