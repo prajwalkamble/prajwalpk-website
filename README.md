@@ -103,7 +103,7 @@ To create a new account on Whealth, follow the steps below:
 
 
 [comment]: # (## Support)
-[comment]: # (For assistance, visit the [Support Center](https://whealth-finance.vercel.app/support or contact our support team at support@whealth-finance.vercel.app)
+[comment]: # (For assistance, visit the [Support Center]https://whealth-finance.vercel.app/support or contact our support team at support@whealth-finance.vercel.app)
 
 [comment]: # (## Frequently Asked Questions FAQs)
 [comment]: # (**Q1: Is Whealth Finance free to use?**)
