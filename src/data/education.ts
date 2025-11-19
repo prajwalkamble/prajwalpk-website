@@ -10,7 +10,7 @@ const education: IEducationItem[] = [
   },
   {
     institution: "MIT ACSC, Pune",
-    qualification: "Bachelor of Science in Computer Application (BSc. CA)",
+    qualification: "Bachelor Computer Application (BCA)",
     startDate: "June 2018",
     endDate: "March 2021",
     isCurrentEducation: false,
