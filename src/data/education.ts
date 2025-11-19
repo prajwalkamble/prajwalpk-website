@@ -5,7 +5,8 @@ const education: IEducationItem[] = [
     institution: "Symbiosis Institute of Computer Studies and Research",
     qualification: "Master of Science in Computer Application (MSc. CA)",
     startDate: "June 2023",
-    isCurrentEducation: true,
+    endDate: "May 2025",
+    isCurrentEducation: false,
     description: []
   },
   {
