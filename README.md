@@ -122,5 +122,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **LinkedIn**: [Prajwal Kamble](https://www.linkedin.com/in/prajwalkamble666)
 - **GitHub**: [prajwalkamble](https://github.com/prajwalkamble)
 - **Telegram**: [prajwalkamble666](https://telegram.me/prajwalkamble666)
+- **Twitter (X)**: [prajwalkamble66](https://x.com/prajwalkamble66)
+- **Instagram**: [thenameisprajwalofficial](https://www.instagram.com/thenameisprajwalofficial)
 
 For support or inquiries, feel free to reach out via the contact section on the website or through the social links provided.
