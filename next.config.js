@@ -3,6 +3,7 @@ const path = require("path");
 const { withSentryConfig } = require("@sentry/nextjs");
 
 const nextConfig = {
+  output: 'standalone',
   reactStrictMode: true,
   swcMinify: true,
   images: {
@@ -25,7 +26,7 @@ const nextConfig = {
 // Injected content via Sentry wizard below
 
 module.exports = withSentryConfig(
-  module.exports,
+  nextConfig,
   {
     // For all available options, see:
     // https://github.com/getsentry/sentry-webpack-plugin#options
