@@ -2,6 +2,18 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
   {
+    id: "queenbee-core-server",
+    title: "Offline-First Self-Hosted Server",
+    description:
+      "Offline-first server running on a repurposed laptop. When the machine is off, visitors are handed to a static fallback instead of a browser error — and carried back automatically the moment it returns.",
+    icon: "/skills/html.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/prajwalkamble/queenbee-core-server",
+    url: "https://prajwalkamble.github.io/queenbee-core-server/",
+    tags: ["Linux", "Nginx", "Tailscale", "Parrot OS", "JavaScript", "GitHub Pages"],
+  },
+  {
     id: "iportfolio-pratik",
     title: "Pratik Kamble's Portfolio",
     description:
@@ -46,17 +58,5 @@ const projects: IProjectItem[] = [
     githubUrl: "https://github.com/prajwalkamble/Simple-Bug-Tracker",
     tags: ["React.js", "Redux", "Bootstrap", "Spring Boot"],
   },
-  // {
-  //   id: "e-commerce-app-mern",
-  //   title: "E-commerce App",
-  //   description:
-  //     "An e-commerce web application developed using React.js, Material UI, Redux, and Stripe.",
-  //   icon: "/skills/react.svg",
-  //   repoType: RepoType.Public,
-  //   projectType: ProjectType.Personal,
-  //   githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
-  //   url: "https://nixlab-shop.vercel.app",
-  //   tags: ["React.js", "Redux", "Material UI", "Stripe"],
-  // },
 ];
 export default projects;
