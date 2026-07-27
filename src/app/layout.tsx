@@ -1,10 +1,13 @@
 import "./globals.scss";
 import { Poppins } from "next/font/google";
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/600.css";
 import { ReactNode } from "react";
 import { Metadata } from "next";
 import dynamic from "next/dynamic";
 import { navMenus } from "@/data/navMenus";
 import Footer from "@/components/footer/page";
+import ClientOnly from "@/components/common/ClientOnly";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -80,13 +83,13 @@ export const metadata: Metadata = {
   ],
 };
 
-const GoogleAnalytics = dynamic(
-  () => import("@/components/common/GoogleAnalytics"),
-  { ssr: false }
-);
-const WebVitals = dynamic(() => import("@/components/common/WebVitals"), {
-  ssr: false,
-});
+// const GoogleAnalytics = dynamic(
+//   () => import("@/components/common/GoogleAnalytics"),
+//   { ssr: false }
+// );
+// const WebVitals = dynamic(() => import("@/components/common/WebVitals"), {
+//   ssr: false,
+// });
 const FloatingNavbar = dynamic(
   () => import("@/components/navbar/FloatingNavbar")
 );
@@ -97,11 +100,11 @@ const isDebug = process.env.NODE_ENV === "development";
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <html lang="en" className={poppins.className}>
-      {isDebug ? null : <GoogleAnalytics />}
+      {isDebug ? null : <ClientOnly />}
 
       <body>
       {/* <body className={isDebug ? "debug-screens" : ""}> */}
-        {isDebug ? <WebVitals /> : null}
+        {isDebug ? <ClientOnly /> : null}
         <FloatingNavbar className="app_nav" navItems={navMenus} />
         <main>{children}</main>
         <ScrollToTop />
