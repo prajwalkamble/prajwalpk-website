@@ -95,7 +95,7 @@ const FloatingNavbar = dynamic(
 );
 const ScrollToTop = dynamic(() => import("@/components/common/ScrollToTop"));
 
-const isDebug = process.env.NODE_ENV === "development";
+const isDebug = process.env.NODE_ENV === "production";
 
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
